@@ -1,16 +1,17 @@
-# Day 4: Advanced JavaScript & Asynchronous Programming
+# Days 4 & 5: Advanced JavaScript & Asynchronous Practice
 
-Today was all about mastering advanced JavaScript concepts. I moved away from the basic loops and syntax to learn how modern, real-world JavaScript handles complex data and asynchronous tasks like fetching data from servers.
+These two days were all about practicing advanced JavaScript concepts using a single core script file. I focused on learning how modern JavaScript handles complex data arrays, connects with external servers, and splits code into smaller pieces.
 
-## 📝 What I Learned Today:
+## 📝 What I Practiced in the Code:
 
-* **Smart Data Handling (Destructuring & Maps):** Learnt how to unpack values directly from arrays and objects without writing long code. Also practiced using the `Map` object to store key-value pairs cleanly.
-* **The Spread Operator (`...`):** Used the `...` syntax to easily copy and add new items into existing arrays (like splitting student names and ages into separate lists).
-* **Sync vs Async JavaScript:** Understood how JavaScript executes code line-by-line (Synchronous) and how it handles delayed tasks using `setTimeout` without freezing the page (Asynchronous).
-* **Promises (The Foundation):** Created custom Promises using `resolve` and `reject` to handle tasks that take time, and learnt how to catch errors using `.then()` and `.catch()`. Also looked into `Promise.race()`.
-* **Async/Await & Fetch API:** This was the best part! Learnt how `async` and `await` make asynchronous code look clean and readable. Used the `fetch()` API to make a network request to an external URL and read JSON data.
-* **Modules (Import/Export):** Practiced splitting code into multiple files and linking them together using both modern browser style (`import/export`) and Node.js style (`require`).
+* **Array & Object Destructuring:** Practiced pulling out student names and ages directly from an array of objects using a clean `for...of` loop layout.
+* **JavaScript Maps:** Created a key-value store using `new Map()` and practiced unpacking it using double-destructuring arrays.
+* **The Spread Operator (`...`):** Used the `...` syntax to push extracted names and ages into separate lists without messing up the original data arrays.
+* **Sync vs Async Flow:** Tested how code runs line-by-line vs how `setTimeout` delays tasks for 2 seconds without stopping the rest of the script.
+* **Promises & Race Conditions:** Built custom Promises with `resolve` and `reject` logic to handle pass/fail states. Also tested `Promise.race()` to see which promise resolves the fastest.
+* **Async/Await & Fetch API:** Converted standard functions into `async` versions and used `await` to get clean data. Used the native `fetch()` API to call an external API URL and log JSON user records in the console.
+* **Module Systems (Import/Export & Require):** Practiced linking external files together using both browser style (`import/export`) and server style (`require`).
 
 ## 📂 Files Uploaded:
-* `practice.js` - The main file containing all my practice code for promises, destructuring, and async functions.
+* `domscript1.js` - The main practice script containing all the exact code blocks for destructuring, promises, async/await, and API fetches.
 *
