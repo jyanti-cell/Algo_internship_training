@@ -1,4 +1,4 @@
-# 📂 Foundations of Web Architecture
+# 📂 Day 1 of training
 
 Welcome! This repository serves as a practical workspace containing independent web projects engineered from scratch using **pure HTML5** to master document structure and content hierarchy.
 
