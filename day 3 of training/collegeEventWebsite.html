@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tech Fest 2026</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tech Fest 2026</h1>
+        </header>
+        <nav>
+            About Event  | Schedule  | Rules  | Registration
+        </nav>
+        <section id="About Event">
+            <h2>About Event</h2>
+            <p id="paragraph">Tech Fest 2026 is a technology event where students can participate in Coding competitions, workshops, and project exhibitions to enhance their skills.</p>
+        </section>
+        <section id="Event Schedule">
+            <h2>Event Schedule</h2>
+            <ol>
+                <li>Opening ceremony - 9:00 AM</li>
+                <li>Coding Competition - 10:00 AM</li>
+                <li>Lunch Break - 1:00 PM</li>
+                <li>Project Exhibition - 2:00 PM</li>
+                <li>Workshop - 4:00 PM</li>
+                <li>Prize Distribution - 5:00 PM</li>
+            </ol>
+        </section>
+        <section id="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>Participants must carry their ID card.</li>
+                <li>Maintain discipline throughout the event.</li>
+                <li>Follow the instructions.</li>
+            </ul>
+        </section>
+        <section id="RegistrationFormSection">
+            <h2>Registration Form</h2>
+            <form id="festForm" onsubmit="event.preventDefault();">
+                <label>Full Name:</label>
+                <input type="text" id="FullName"> 
+                <br><br>
+                <label>Email:</label>
+                <input type="email" id="email">
+                <br><br>
+                <label>Phone Number:</label>
+                <input type="tel" id="PhoneNumber">  
+                <br><br>
+                <label>Gender:</label><br>
+                <input type="radio" name="gender" value="Male"> Male<br>
+                <input type="radio" name="gender" value="Female"> Female<br>
+                <input type="radio" name="gender" value="Other"> Other
+                <br><br>
+                <label>College Name:</label>
+                <input type="text" id="CollegeName">
+                <br><br>
+                <label>Course:</label>
+                <select name="course" id="course">
+                    <option>B.tech</option>
+                    <option>BCA</option>
+                    <option>BCOM</option>
+                    <option>BBA</option>
+                </select>
+                <select name="year of course" id="yearofcourse">
+                    <option>1st year</option>
+                    <option>2nd year</option>
+                    <option>3rd year</option>
+                    <option>4th year</option>
+                </select>
+                <br><br>
+                <label>Address:</label>
+                <textarea name="address" rows="4" cols="30" id="address"></textarea>
+                <br><br>
+                <label>Participate in:</label>
+                <select name="Participate in" id="participatein">
+                    <option>Coding Competition</option>
+                    <option>Project Exhibition</option>
+                    <option>Workshop</option> 
+                </select>
+                <br><br>
+                <button type="button" onclick="processform()">Register</button>
+            </form>
+        </section>
+        <footer>
+            <p>Contact: techfest2026@gmail.com</p>
+            <p>2026 Tech Fest. All Rights Reserved.</p>
+        </footer>
+        <script src="domscript.js"></script>
+    </body>
+</html>
