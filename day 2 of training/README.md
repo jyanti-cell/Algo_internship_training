@@ -1,4 +1,4 @@
-# Day 2 of training: CSS Basics, Flexbox, Grid, Responsive Design
+# Day 2 of training: CSS Basics, Flexbox, Grid, Responsive Design.
 
 Today I worked on the fundamental styling concepts of web development and applied them to build a responsive portfolio page.
 
