@@ -1,4 +1,4 @@
-# Day 6: Building a Weather App with Mock Authentication & Fun Quotes
+#  Day 6: Building a Weather App with Mock Authentication & Fun Quotes
 
 Today, I applied all my JavaScript knowledge to build a fully functional, creative Weather App from scratch. Instead of just creating a basic API fetch tool, I added a mock login/signup security layer using the browser's storage and integrated funny, desi contextual weather quotes based on live temperatures!
 
